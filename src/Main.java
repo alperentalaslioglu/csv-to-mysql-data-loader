@@ -17,7 +17,7 @@ public class Main {
 		//CSV Reader
 		Scanner inputReader = new Scanner(new File(fileName));
 		
-		//Gettin column names from first line
+		//Getting column names from first line
 		String columns = (inputReader.nextLine()).replace(";", ",");
 
 		//Check the table if does not exist, create a table
