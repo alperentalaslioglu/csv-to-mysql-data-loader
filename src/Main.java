@@ -28,7 +28,8 @@ public class Main {
 			db.addData(tableName, columns, generateRow(inputReader.nextLine()));		
 		}
 	}
-
+	
+	//Generate suitable row for entering SQL Query
 	public static String generateRow(String row){
 		String rowForSQL = "";
 		String[] cols = row.split(";");
