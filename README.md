@@ -1,5 +1,5 @@
 # CsvToMySQL
-CSV To MySQL converter
+CSV To MySQL data transfer tool
 
 
 Put your csv file to root directory of the project.
